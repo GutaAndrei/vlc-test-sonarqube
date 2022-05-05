@@ -1,0 +1,41 @@
+SonarQube plugins:
+  - SourceMeter GUI 2.1.0 (SourceMeterGUI)
+  - Python Code Quality and Security 3.4.1.8066 (python)
+  - CSS Code Quality and Security 1.4.2.2002 (cssfamily)
+  - SourceMeter Java analyzer 2.1.0 (SourceMeterAnalyzerjava)
+  - Go Code Quality and Security 1.8.3.2219 (go)
+  - JaCoCo 1.1.1.1157 (jacoco)
+  - Kotlin Code Quality and Security 1.8.3.2219 (kotlin)
+  - SourceMeter C/C++ analyzer 2.1.0 (SourceMeterAnalyzercpp)
+  - JavaScript/TypeScript Code Quality and Security 7.4.4.15624 (javascript)
+  - Ruby Code Quality and Security 1.8.3.2219 (ruby)
+  - Scala Code Quality and Security 1.8.3.2219 (sonarscala)
+  - C# Code Quality and Security 8.22.0.31243 (csharp)
+  - Java Code Quality and Security 6.15.1.26025 (java)
+  - SourceMeter JavaScript analyzer 2.1.0 (SourceMeterAnalyzerjavascript)
+  - HTML Code Quality and Security 3.4.0.2754 (web)
+  - Flex Code Quality and Security 2.6.1.2564 (flex)
+  - SourceMeter RPG analyzer 2.1.0 (SourceMeterAnalyzerrpg)
+  - XML Code Quality and Security 2.2.0.2973 (xml)
+  - SourceMeter Core plugin 2.1.0 (SourceMeterCore)
+  - PHP Code Quality and Security 3.17.0.7439 (php)
+  - VB.NET Code Quality and Security 8.22.0.31243 (vbnet)
+  - SourceMeter Python analyzer 2.1.0 (SourceMeterAnalyzerpython)
+  - SourceMeter C# analyzer 2.1.0 (SourceMeterAnalyzercsharp)
+Global server settings:
+  - sonar.core.id=BF41A1F2-AYCT_CorZriC1OlDGXU2
+  - sonar.core.startTime=2022-05-05T11:30:09+0000
+  - sonar.forceAuthentication=true
+  - sonar.plugins.risk.consent=ACCEPTED
+Project server settings:
+Project scanner properties:
+  - sonar.host.url=http://sonarqube:9000
+  - sonar.login=******
+  - sonar.projectBaseDir=/usr/src
+  - sonar.projectKey=webrtc
+  - sonar.scanner.app=ScannerCLI
+  - sonar.scanner.appVersion=4.7.0.2747
+  - sonar.sourceEncoding=US-ASCII
+  - sonar.sources=src/,test/
+  - sonar.verbose=true
+  - sonar.working.directory=/usr/src/.scannerwork
