@@ -3,4 +3,4 @@ project(sonar_scanner_example)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(sonar_scanner_example playlist/export.c)
+add_executable(sonar_scanner_example src/playlist/export.c)
